@@ -184,5 +184,6 @@ int main(int argc, char* argv[]) {
     close(listenfd);
     delete[] users;
     delete pool;
+    
     return 0;
 }
